@@ -4,9 +4,8 @@ from PyQt5.QtWidgets import ( QStackedWidget, QWidget,
                              QGridLayout, QHBoxLayout, QLabel, QPushButton, QTableWidget
                              , QVBoxLayout, QLineEdit, QTableWidgetItem, QTabWidget)
 
-
-from Grelhapy import Analises
-from Grelhapy.Erros import erro_formato_errado, erro_null
+from Data.Analise import Analises
+from Data.Erros.Erros import erro_null, erro_formato_errado
 
 import matplotlib.pyplot as pl
 import matplotlib.patches as patches
@@ -391,8 +390,9 @@ class Janelas(QWidget):
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
     CondicoesDeContorno, G, E, J, I
 
-        R = Analises.Analise(Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
-                           CondicoesDeContorno, G, E, J, I))
+        R = Analises.Analise(
+            Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
+                            CondicoesDeContorno, G, E, J, I))
         R.linear_elastica()
         D = R.linear_elastica()
         self.tabela_deslocamentos.setColumnCount(1)
@@ -405,8 +405,12 @@ class Janelas(QWidget):
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
     CondicoesDeContorno, G, E, J, I
 
-        R = Analises.Analise(Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
-                           CondicoesDeContorno, G, E, J, I))
+        R = Analises.Analise(
+            Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
+                            CondicoesDeContorno, G, E, J, I))
+        b = Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
+                            CondicoesDeContorno, G, E, J, I)
+        print(b.comprimento_barra(2))
 
         Reacoes = R.reacoes_apoio()
         self.tabela_reacoes.setColumnCount(3)
@@ -420,8 +424,9 @@ class Janelas(QWidget):
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
     CondicoesDeContorno, G, E, J, I
 
-        R = Analises.Analise(Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
-                           CondicoesDeContorno, G, E, J, I))
+        R = Analises.Analise(
+            Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
+                            CondicoesDeContorno, G, E, J, I))
 
         esi = R.eforcos_solicitantes()
         self.tabela_esi.setColumnCount(6)

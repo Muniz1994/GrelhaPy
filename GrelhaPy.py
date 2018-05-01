@@ -2,10 +2,11 @@ import sys
 
 from numpy import savez, load
 
-
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QAction)
 
-from Janelas import Janelas
+
+from Data.Visual.Janelas import Janelas
+from Data.Visual.VisualConfig import VisualConfig
 
 NumeroDeNos = None
 NumeroDeBarras = None
@@ -21,17 +22,11 @@ I = None
 
 
 # noinspection PyUnresolvedReferences
-class GrelhaCalcMain(QMainWindow):
+class GrelhaCalcMain(VisualConfig):
 
     def __init__(self):
         super().__init__()
 
-        ##################################################################################
-        """Características básicas da tela principal"""
-        self.setWindowTitle('Grelha_calc')
-        self.setGeometry(50, 50, 800, 600)
-        self.setMaximumSize(1280, 768)
-        self.setMinimumSize(800, 600)
 
         ##################################################################################
         """Criação dos menus"""
@@ -54,9 +49,7 @@ class GrelhaCalcMain(QMainWindow):
 
         # Menu de geometria
         botao_nos = QAction('Nós e Barras', self)
-        # botao_barras = QAction('Barras', self)
         menu_geometria.addAction(botao_nos)
-        # menu_geometria.addAction(botao_barras)
 
         # Menu dos módulos de elasticidade
         botao_elasticidade = QAction('Módulos de elasticidade', self)

@@ -1,23 +1,24 @@
-from numpy import array, dot, zeros
+from numpy import dot, zeros, array
 
 from numpy.linalg import inv
 
 from copy import copy
 
-from Grelhapy.Estruturas import Grelha
+from Data.Analise.Estruturas import Grelha
+
 
 # Variável a ser modificada
 
 
-# MatrizDeCoordenadas = array(([0, 0], [0, 4], [6, 4]))
-# MatrizDeConectividade = array(([1, 2], [2, 3]))
-# ForcasDistribuidas = array(([-10], [-5]))
-# ForcasNodais = array(([0, 0, 0], [0, 0, -5], [0, 0, 0]))
-# CondicoesDeContorno = array(([1, 1, 1], [0, 0, 0], [1, 1, 1]))
-# G = array(([103.56491E8], [103.56491E8]))
-# E = array(([248.55578E8], [248.55578E8]))
-# J = array(([4.086E-10], [4.086E-10]))
-# I = array(([2.043E-10], [2.043E-10]))
+MatrizDeCoordenadas = array(([0, 0], [0, 4], [6, 4]))
+MatrizDeConectividade = array(([1, 2], [2, 3]))
+ForcasDistribuidas = array(([-10], [-5]))
+ForcasNodais = array(([0, 0, 0], [0, 0, -5], [0, 0, 0]))
+CondicoesDeContorno = array(([1, 1, 1], [0, 0, 0], [1, 1, 1]))
+G = array(([103.56491E8], [103.56491E8]))
+E = array(([248.55578E8], [248.55578E8]))
+J = array(([4.086E-10], [4.086E-10]))
+I = array(([2.043E-10], [2.043E-10]))
 
 
 # Vetor de forças nodais equivalentes
@@ -29,6 +30,9 @@ class Analise:
         self.MatrizRigidezGlobal = None
 
     def linear_elastica(self):
+
+        #################################################################################
+        """Criação do vetor de forças"""
         self.ForcasNodaisEquivalentes = zeros((self.estrutura.Deslocabilidades * self.estrutura.NumeroDeNos, 1))
 
         for i in range(1, self.estrutura.NumeroDeBarras+1):
@@ -49,6 +53,19 @@ class Analise:
 
                 ForcasNodaisCombinadas[(((i-1)*self.estrutura.Deslocabilidades) + j)-1, 0] += self.estrutura.ForcasNodais[i-1, j-1]
 
+        ForcasNodaisNumeroGrande = zeros((self.estrutura.Deslocabilidades * self.estrutura.NumeroDeNos, 1))
+        for i in range(1, self.estrutura.NumeroDeNos + 1):
+            for j in range(1, self.estrutura.Deslocabilidades + 1):
+                if self.estrutura.CondicoesDeContorno[i - 1, j - 1] == 1:
+                    ForcasNodaisNumeroGrande[(self.estrutura.Deslocabilidades * (i - 1) + j) - 1, 0] = \
+                        ForcasNodaisCombinadas[(self.estrutura.Deslocabilidades * (i - 1) + j) - 1, 0] + \
+                        self.estrutura.NumeroGrande * self.estrutura.DeslocamentosPrescritos[i - 1, j - 1]
+                else:
+                    ForcasNodaisNumeroGrande[(self.estrutura.Deslocabilidades * (i - 1) + j) - 1, 0] = \
+                        ForcasNodaisCombinadas[(self.estrutura.Deslocabilidades * (i - 1) + j) - 1, 0]
+
+        #################################################################################
+        """Criação da matriz de rigidez global"""
         self.MatrizRigidezGlobal = zeros((self.estrutura.Deslocabilidades*self.estrutura.NumeroDeNos, self.estrutura.Deslocabilidades*self.estrutura.NumeroDeNos))
 
         for i in range(1, self.estrutura.NumeroDeBarras+1):
@@ -73,16 +90,8 @@ class Analise:
                     MatrizRigidezNumeroGrande[self.estrutura.Deslocabilidades*(i-1)+j-1, self.estrutura.Deslocabilidades*(i-1)+j-1] = \
                         MatrizRigidezNumeroGrande[self.estrutura.Deslocabilidades*(i-1)+j-1, self.estrutura.Deslocabilidades*(i-1)+j-1] + self.estrutura.NumeroGrande
 
-        ForcasNodaisNumeroGrande = zeros((self.estrutura.Deslocabilidades*self.estrutura.NumeroDeNos, 1))
-        for i in range(1, self.estrutura.NumeroDeNos+1):
-            for j in range(1, self.estrutura.Deslocabilidades+1):
-                if self.estrutura.CondicoesDeContorno[i-1, j-1] == 1:
-                    ForcasNodaisNumeroGrande[(self.estrutura.Deslocabilidades*(i-1)+j)-1, 0] = \
-                        ForcasNodaisCombinadas[(self.estrutura.Deslocabilidades*(i-1)+j)-1, 0] + \
-                        self.estrutura.NumeroGrande * self.estrutura.DeslocamentosPrescritos[i-1, j-1]
-                else:
-                    ForcasNodaisNumeroGrande[(self.estrutura.Deslocabilidades*(i-1)+j)-1, 0] =\
-                        ForcasNodaisCombinadas[(self.estrutura.Deslocabilidades*(i-1)+j)-1, 0]
+        #################################################################################
+        """Cálculo dos deslocamentos"""
 
         Deslocamentos = dot(inv(MatrizRigidezNumeroGrande), ForcasNodaisNumeroGrande)
         return Deslocamentos
@@ -120,9 +129,10 @@ class Analise:
 
         return EsforcosInternos
 
+
 #
-# R = Analise(Grelha( MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
-#                 CondicoesDeContorno, G, E, J, I))
-# R.linear_elastica()
-#
-# print(R.reacoes_apoio())
+R = Analise(Grelha( MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
+                CondicoesDeContorno, G, E, J, I))
+R.linear_elastica()
+
+print(R.reacoes_apoio())
