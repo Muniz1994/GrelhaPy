@@ -22,7 +22,7 @@ class Grelha:
 
         self.Deslocabilidades = 3
 
-        self.NumeroGrande = 1E15
+        self.NumeroGrande = 1E20
 
     def comprimento_barra(self, i):
 
@@ -74,10 +74,10 @@ class Grelha:
     def matriz_rotacao(self, i):
 
         x = zeros((2 * self.Deslocabilidades, 2 * self.Deslocabilidades))
-        x[0, 0] = absolute(((self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 0]
+        x[0, 0] = (((self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 0]
                              - self.MatrizDeCoordenadas[
                                  int(self.MatrizDeConectividade[i - 1, 0]) - 1, 0]) / self.comprimento_barra(i)))
-        x[0, 1] = absolute(((self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 1]
+        x[0, 1] = (((self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 1]
                              - self.MatrizDeCoordenadas[
                                  int(self.MatrizDeConectividade[i - 1, 0]) - 1, 1]) / self.comprimento_barra(i)))
         x[1, 0] = - x[0, 1]
@@ -93,27 +93,9 @@ class Grelha:
 
         x = zeros((2 * self.Deslocabilidades, 1))
 
-        if self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 0] >= \
-                self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 0]) - 1, 0] and \
-                self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 1]) - 1, 1] >= \
-                self.MatrizDeCoordenadas[int(self.MatrizDeConectividade[i - 1, 0]) - 1, 1]:
+        y = 0
 
-            y = 0
-
-            for j in range(1, 3):
-
-                for jk in range(1, self.Deslocabilidades + 1):
-                    y += 1
-
-                    w = self.Deslocabilidades * (self.MatrizDeConectividade[i - 1, j - 1] - 1) + jk
-
-                    x[y - 1, 0] = int(w)
-
-        else:
-
-            y = 3
-
-            j = 1
+        for j in range(1, 3):
 
             for jk in range(1, self.Deslocabilidades + 1):
                 y += 1
@@ -122,16 +104,6 @@ class Grelha:
 
                 x[y - 1, 0] = int(w)
 
-            y = 0
-
-            j = 2
-
-            for jk in range(1, self.Deslocabilidades + 1):
-                y += 1
-
-                w = self.Deslocabilidades * (self.MatrizDeConectividade[i - 1, j - 1] - 1) + jk
-
-                x[y - 1, 0] = int(w)
         return x
 
 

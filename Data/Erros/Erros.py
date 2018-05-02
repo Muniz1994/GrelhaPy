@@ -6,8 +6,8 @@ def erro_null():
     msg.setIcon(QMessageBox.Warning)
 
     msg.setText("Erro de preenchimento de tabela!")
-    msg.setInformativeText("É necessário que todos os campos da tabela estejam preenchidos com valores inteiros"
-                           "ou decimais")
+    msg.setInformativeText("É necessário que todos os campos da tabela estejam preenchidos com valores inteiros \
+                           ou decimais")
     msg.setWindowTitle("Erro de preenchimento")
     msg.setStandardButtons(QMessageBox.Close)
 
@@ -21,6 +21,17 @@ def erro_formato_errado():
     msg.setText("Erro de Formato!")
     msg.setInformativeText("O valor a ser inserido precisa ser inteiro")
     msg.setWindowTitle("Erro de formato")
+    msg.setStandardButtons(QMessageBox.Close)
+
+    msg.exec_()
+
+def erro_aus_dados():
+    msg = QMessageBox()
+    msg.setIcon(QMessageBox.Warning)
+
+    msg.setText("Ausência de dados!")
+    msg.setInformativeText("É necessário o preenchimento e atualização de todos os dados da estrutura")
+    msg.setWindowTitle("Ausência de dados")
     msg.setStandardButtons(QMessageBox.Close)
 
     msg.exec_()

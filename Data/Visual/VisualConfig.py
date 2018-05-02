@@ -9,7 +9,7 @@ class VisualConfig(QMainWindow):
 
         ##################################################################################
         """Características básicas da tela principal"""
-        self.setWindowTitle('Grelha_calc')
+        self.setWindowTitle('GrelhaPy')
         self.setGeometry(50, 50, 800, 600)
         self.setMaximumSize(1280, 768)
         self.setMinimumSize(800, 600)

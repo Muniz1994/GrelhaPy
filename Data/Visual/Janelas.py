@@ -5,11 +5,12 @@ from PyQt5.QtWidgets import ( QStackedWidget, QWidget,
                              , QVBoxLayout, QLineEdit, QTableWidgetItem, QTabWidget)
 
 from Data.Analise import Analises
-from Data.Erros.Erros import erro_null, erro_formato_errado
+from Data.Erros.Erros import erro_null, erro_formato_errado, erro_aus_dados
 
 import matplotlib.pyplot as pl
 import matplotlib.patches as patches
 from matplotlib.path import Path
+
 
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
@@ -278,9 +279,21 @@ class Janelas(QWidget):
 
             self.tabela_nos.setColumnCount(5)
             self.tabela_nos.setRowCount(NumeroDeNos)
+            self.tabela_nos.setHorizontalHeaderLabels(("Coordenada X(m)","Coordenada Y(m)","Apoio em X", "Apoio em Y", "Apoio em Z"))
+            for j in range(3):
+                for i in range(NumeroDeNos):
+                    self.tabela_nos.setItem(i, j+2, QTableWidgetItem("0"))
 
             self.tabela_forcas_concentradas.setColumnCount(3)
             self.tabela_forcas_concentradas.setRowCount(NumeroDeNos)
+            self.tabela_forcas_concentradas.setHorizontalHeaderLabels(
+                ("Momento em X(KN.m)", "Momento em Y(KN.m)", "Força horizontal em Z(KN)"))
+            self.tabela_forcas_concentradas.setColumnWidth(0, 200)
+            self.tabela_forcas_concentradas.setColumnWidth(1, 200)
+            self.tabela_forcas_concentradas.setColumnWidth(2, 200)
+            for j in range(3):
+                for i in range(NumeroDeNos):
+                    self.tabela_forcas_concentradas.setItem(i, j, QTableWidgetItem("0"))
         except:
             erro_formato_errado()
 
@@ -312,13 +325,25 @@ class Janelas(QWidget):
 
             self.tabela_barras.setColumnCount(4)
             self.tabela_barras.setRowCount(NumeroDeBarras)
+            self.tabela_barras.setHorizontalHeaderLabels(
+                ("Nó inicial", "Nó final", "Momento de inércia longitudinal (I)", "Momento de inércia Transversal (J)"))
+            self.tabela_barras.setColumnWidth(2, 230)
+            self.tabela_barras.setColumnWidth(3, 230)
 
             self.tabela_modulos.setColumnCount(2)
             self.tabela_modulos.setRowCount(NumeroDeBarras)
+            self.tabela_modulos.setHorizontalHeaderLabels(
+                ("Módulo de elasticidade longitudinal (E)", "Módulo de elasticidade transversal (G)"))
+            self.tabela_modulos.setColumnWidth(0, 240)
+            self.tabela_modulos.setColumnWidth(1, 240)
 
             self.tabela_forcas_distribuidas.setColumnCount(1)
             self.tabela_forcas_distribuidas.setRowCount(NumeroDeBarras)
-        except:
+            self.tabela_forcas_distribuidas.setHorizontalHeaderLabels(["Força distribuída KN/m"])
+            self.tabela_forcas_distribuidas.setColumnWidth(0, 240)
+            for i in range(NumeroDeBarras):
+                self.tabela_forcas_distribuidas.setItem(i, 0, QTableWidgetItem("0"))
+        except ValueError:
             erro_formato_errado()
 
     def botao_atualizar_barrasm(self):
@@ -393,10 +418,11 @@ class Janelas(QWidget):
         R = Analises.Analise(
             Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
                             CondicoesDeContorno, G, E, J, I))
-        R.linear_elastica()
         D = R.linear_elastica()
         self.tabela_deslocamentos.setColumnCount(1)
         self.tabela_deslocamentos.setRowCount(NumeroDeNos * 3)
+        self.tabela_deslocamentos.setHorizontalHeaderLabels(["Deslocamentos nodais(m)"])
+        self.tabela_deslocamentos.setColumnWidth(0, 200)
 
         for i in range(NumeroDeNos*3):
             self.tabela_deslocamentos.setItem(i, 0, QTableWidgetItem(str(D[i, 0])))
@@ -404,6 +430,7 @@ class Janelas(QWidget):
     def botao_analise_reacoes(self):
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
     CondicoesDeContorno, G, E, J, I
+
 
         R = Analises.Analise(
             Analises.Grelha(MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,
@@ -415,10 +442,15 @@ class Janelas(QWidget):
         Reacoes = R.reacoes_apoio()
         self.tabela_reacoes.setColumnCount(3)
         self.tabela_reacoes.setRowCount(NumeroDeNos)
+        self.tabela_reacoes.setHorizontalHeaderLabels(("Reação em X(KN.m)", "Reação em Y(KN.m)", "Reação em Z(KN)"))
+        self.tabela_reacoes.setColumnWidth(0, 160)
+        self.tabela_reacoes.setColumnWidth(1, 160)
+        self.tabela_reacoes.setColumnWidth(2, 160)
 
         for i in range(NumeroDeNos):
             for j in range(3):
                 self.tabela_reacoes.setItem(i, j, QTableWidgetItem(str(Reacoes[i, j])))
+
 
     def botao_analise_esi(self):
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
@@ -431,6 +463,15 @@ class Janelas(QWidget):
         esi = R.eforcos_solicitantes()
         self.tabela_esi.setColumnCount(6)
         self.tabela_esi.setRowCount(NumeroDeBarras)
+        self.tabela_esi.setHorizontalHeaderLabels(
+            ("Esforço inicial em X(KN.m)", "Esforço inicial em Y(KN.m)",
+             "Esforço inicial em Z(KN)","Esforço final em X(KN.m)", "Esforço final em Y(KN.m)", "Esforço final em Z(KN)"))
+        self.tabela_esi.setColumnWidth(0, 220)
+        self.tabela_esi.setColumnWidth(1, 220)
+        self.tabela_esi.setColumnWidth(2, 220)
+        self.tabela_esi.setColumnWidth(3, 220)
+        self.tabela_esi.setColumnWidth(4, 220)
+        self.tabela_esi.setColumnWidth(5, 220)
 
         for j in range(6):
             for i in range(NumeroDeBarras):
