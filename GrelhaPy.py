@@ -4,7 +4,7 @@ from numpy import savez, load
 
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QAction)
 
-
+import time
 from Data.Visual.Janelas import Janelas
 from Data.Visual.VisualConfig import VisualConfig
 
@@ -92,8 +92,12 @@ class GrelhaCalcMain(VisualConfig):
         self.show()
 
     def save_event(self):
+
         global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
         CondicoesDeContorno, G, E, J, I
+
+        print(NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
+        CondicoesDeContorno, G, E, J, I)
 
         savez("Savefile.txt", NumeroDeNos)
 
