@@ -1,32 +1,31 @@
+"""Arquivo principal do programa"""
 import sys
 
-from numpy import savez, load
-
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QAction)
-
-import time
+from PyQt5.QtWidgets import QApplication
 from Data.Visual.Janelas import Janelas
 from Data.Visual.VisualConfig import VisualConfig
-
-NumeroDeNos = None
-NumeroDeBarras = None
-MatrizDeCoordenadas = None
-MatrizDeConectividade = None
-ForcasDistribuidas = None
-ForcasNodais = None
-CondicoesDeContorno = None
-G = None
-E = None
-J = None
-I = None
+from numpy import array, inf
 
 
-# noinspection PyUnresolvedReferences
+NumeroDeNos = array([inf])
+NumeroDeBarras = array([inf])
+MatrizDeCoordenadas = array([inf])
+MatrizDeConectividade = array([inf])
+ForcasDistribuidas = array([inf])
+ForcasNodais = array([inf])
+CondicoesDeContorno = array([inf])
+G = array([inf])
+E = array([inf])
+J = array([inf])
+I = array([inf])
+
+
+# noinspection PyUnresolvedReferencesicoord = matriz.shape[0]
+#             jcoord = matriz.shape[1]
 class GrelhaCalcMain(VisualConfig):
 
     def __init__(self):
         super().__init__()
-
 
         ##################################################################################
         """Criação dos menus"""
@@ -36,38 +35,9 @@ class GrelhaCalcMain(VisualConfig):
         menu_materiais = main_menu.addMenu('Materiais')
         menu_forcas = main_menu.addMenu('Forças')
         menu_analise = main_menu.addMenu('Análise')
+        menu_ajuda = main_menu.addMenu('Ajuda')
 
-        ##################################################################################
-        """Definição dos submenus"""
-        # Menu de arquivo
-        botao_abrir = QAction('Abrir...', self)
-        botao_novo = QAction('Novo', self)
-        botao_salvar = QAction('Salvar', self)
-        menu_arquivo.addAction(botao_abrir)
-        menu_arquivo.addAction(botao_novo)
-        menu_arquivo.addAction(botao_salvar)
-
-        # Menu de geometria
-        botao_nos = QAction('Nós e Barras', self)
-        menu_geometria.addAction(botao_nos)
-
-        # Menu dos módulos de elasticidade
-        botao_elasticidade = QAction('Módulos de elasticidade', self)
-        menu_materiais.addAction(botao_elasticidade)
-
-        # Menu das forças
-        botao_forcas_distribuidas = QAction('Forças Distribuídas', self)
-        botao_forcas_concentradas = QAction('Forças Concentradas', self)
-        menu_forcas.addAction(botao_forcas_concentradas)
-        menu_forcas.addAction(botao_forcas_distribuidas)
-
-        # Menu das análises
-        botao_deslocamentos = QAction('Deslocamentos', self)
-        botao_reacoes_apoio = QAction('Reações de apoio', self)
-        botao_esi = QAction('Esforços solicitantes', self)
-        menu_analise.addAction(botao_deslocamentos)
-        menu_analise.addAction(botao_reacoes_apoio)
-        menu_analise.addAction(botao_esi)
+        menu_ajuda.setEnabled(False)
 
         ##################################################################################
         # Criação do objeto da classe janelas que irá conter o stack das páginas
@@ -75,44 +45,40 @@ class GrelhaCalcMain(VisualConfig):
         self.setCentralWidget(self.Janelas)
 
         ##################################################################################
-        # Definição das funções dos botões do submenu
-        botao_salvar.triggered.connect(self.save_event)
-        botao_abrir.triggered.connect(self.read_event)
-        botao_nos.triggered.connect(self.Janelas.botao_nos)
-        # botao_barras.triggered.connect(self.Janelas.botao_barras)
-        botao_elasticidade.triggered.connect(self.Janelas.botao_elasticidade)
-        botao_forcas_distribuidas.triggered.connect(self.Janelas.botao_forcas_distribuidas)
-        botao_forcas_concentradas.triggered.connect(self.Janelas.botao_forcas_concentradas)
-        botao_deslocamentos.triggered.connect(self.Janelas.botao_deslocamentos)
-        botao_reacoes_apoio.triggered.connect(self.Janelas.botao_reacoes_apoio)
-        botao_esi.triggered.connect(self.Janelas.botao_esi)
+        """Definição dos submenus"""
+        # Menu de arquivo
+        menu_arquivo.addAction(self.Janelas.botao_abrir)
+        menu_arquivo.addAction(self.Janelas.botao_novo)
+        menu_arquivo.addAction(self.Janelas.botao_salvar)
 
-        self.statusbar = self.statusBar()
+        # Menu de geometria
+        menu_geometria.addAction(self.Janelas.botao_nos)
+
+        # Menu dos módulos de elasticidade
+        menu_materiais.addAction(self.Janelas.botao_elasticidade)
+
+        # Menu das forças
+        menu_forcas.addAction(self.Janelas.botao_forcas_concentradas)
+        menu_forcas.addAction(self.Janelas.botao_forcas_distribuidas)
+
+        # Menu das análises
+        menu_analise.addAction(self.Janelas.botao_analise)
+        menu_analise.addSeparator()
+        menu_analise.addAction(self.Janelas.botao_deslocamentos)
+        menu_analise.addAction(self.Janelas.botao_reacoes_apoio)
+        menu_analise.addAction(self.Janelas.botao_esi)
+        menu_analise.addAction(self.Janelas.botao_matriz)
+
+
+        # ##################################################################################
+
+        self.setStatusBar(self.Janelas.statusBar)
 
         self.show()
-
-    def save_event(self):
-
-        global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
-        CondicoesDeContorno, G, E, J, I
-
-        print(NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais,\
-        CondicoesDeContorno, G, E, J, I)
-
-        savez("Savefile.txt", NumeroDeNos)
-
-    def read_event(self):
-        global NumeroDeNos, NumeroDeBarras, MatrizDeCoordenadas, MatrizDeConectividade, ForcasDistribuidas, ForcasNodais, \
-            CondicoesDeContorno, G, E, J, I
-
-        save_file = load("Savefile.txt")
-
-        print(save_file)
-
-        self.Janelas.edit_text_nos.setText(NumeroDeNos)
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = GrelhaCalcMain()
     sys.exit(app.exec_())
+

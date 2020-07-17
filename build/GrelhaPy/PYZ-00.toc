@@ -784,6 +784,22 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
@@ -795,53 +811,37 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
   ('pkg_resources._vendor',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
+  ('pkg_resources._vendor.packaging._structures',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
   ('pkg_resources.extern',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
@@ -949,6 +949,14 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\offsetbox.py',
    'PYMODULE'),
+  ('matplotlib.path',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\path.py',
+   'PYMODULE'),
+  ('matplotlib.hatch',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\hatch.py',
+   'PYMODULE'),
   ('matplotlib.patheffects',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\patheffects.py',
@@ -988,6 +996,14 @@
   ('matplotlib.markers',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\markers.py',
+   'PYMODULE'),
+  ('matplotlib.patches',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\patches.py',
+   'PYMODULE'),
+  ('matplotlib.bezier',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\bezier.py',
    'PYMODULE'),
   ('matplotlib.legend',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
@@ -1474,61 +1490,61 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
+  ('setuptools._vendor.six',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\six.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
+  ('setuptools._vendor.packaging.requirements',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('setuptools._vendor',
+  ('setuptools._vendor.packaging.utils',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
+  ('setuptools._vendor.packaging.__about__',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('setuptools._vendor.ordered_set',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
    'PYMODULE'),
-  ('setuptools._vendor.six',
+  ('setuptools._vendor.packaging.version',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
+  ('setuptools._vendor.packaging._structures',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
@@ -2035,27 +2051,6 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\projections\\__init__.py',
    'PYMODULE'),
-  ('mpl_toolkits.mplot3d',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
-   'PYMODULE'),
-  ('mpl_toolkits', '-', 'PYMODULE'),
-  ('mpl_toolkits.mplot3d.axes3d',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
-   'PYMODULE'),
-  ('mpl_toolkits.mplot3d.axis3d',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axis3d.py',
-   'PYMODULE'),
-  ('mpl_toolkits.mplot3d.art3d',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\art3d.py',
-   'PYMODULE'),
-  ('mpl_toolkits.mplot3d.proj3d',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\proj3d.py',
-   'PYMODULE'),
   ('matplotlib.projections.polar',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\projections\\polar.py',
@@ -2189,6 +2184,18 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\__init__.py',
    'PYMODULE'),
+  ('matplotlib.pylab',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\pylab.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
   ('matplotlib.style.core',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\style\\core.py',
@@ -2205,21 +2212,30 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\transforms.py',
    'PYMODULE'),
-  ('matplotlib.path',
+  ('mpl_toolkits.mplot3d',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\path.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
    'PYMODULE'),
-  ('matplotlib.hatch',
+  ('mpl_toolkits.mplot3d.axes3d',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\hatch.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
    'PYMODULE'),
-  ('matplotlib.patches',
+  ('mpl_toolkits.mplot3d.axis3d',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\patches.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axis3d.py',
    'PYMODULE'),
-  ('matplotlib.bezier',
+  ('mpl_toolkits.mplot3d.art3d',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\matplotlib\\bezier.py',
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\art3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.proj3d',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\proj3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits', '-', 'PYMODULE'),
+  ('Data.Analise.Estruturas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\Data\\Analise\\Estruturas.py',
    'PYMODULE'),
   ('matplotlib.pyplot',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
@@ -2237,13 +2253,1778 @@
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\Data\\Analise\\Analises.py',
    'PYMODULE'),
-  ('Data.Analise.Estruturas',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\Data\\Analise\\Estruturas.py',
-   'PYMODULE'),
   ('Data.Analise',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\Data\\Analise\\__init__.py',
+   'PYMODULE'),
+  ('pandas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.core.ops.roperator',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.s3',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\s3.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\parsers.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\bruno\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\bruno\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\bruno\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.gcs',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\gcs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('xlsxwriter',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\__init__.py',
+   'PYMODULE'),
+  ('xlsxwriter.workbook',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\workbook.py',
+   'PYMODULE'),
+  ('xlsxwriter.exceptions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\exceptions.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_stock',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_stock.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_scatter',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_scatter.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_radar',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_radar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_line',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_line.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_doughnut',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_column',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_column.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_bar',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_bar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_area',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_area.py',
+   'PYMODULE'),
+  ('xlsxwriter.utility',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\utility.py',
+   'PYMODULE'),
+  ('xlsxwriter.packager',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\packager.py',
+   'PYMODULE'),
+  ('xlsxwriter.comments',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\comments.py',
+   'PYMODULE'),
+  ('xlsxwriter.table',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\table.py',
+   'PYMODULE'),
+  ('xlsxwriter.vml',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\vml.py',
+   'PYMODULE'),
+  ('xlsxwriter.theme',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\theme.py',
+   'PYMODULE'),
+  ('xlsxwriter.styles',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\styles.py',
+   'PYMODULE'),
+  ('xlsxwriter.relationships',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\relationships.py',
+   'PYMODULE'),
+  ('xlsxwriter.custom',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\custom.py',
+   'PYMODULE'),
+  ('xlsxwriter.core',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\core.py',
+   'PYMODULE'),
+  ('xlsxwriter.contenttypes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\contenttypes.py',
+   'PYMODULE'),
+  ('xlsxwriter.app',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\app.py',
+   'PYMODULE'),
+  ('xlsxwriter.format',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\format.py',
+   'PYMODULE'),
+  ('xlsxwriter.sharedstrings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\sharedstrings.py',
+   'PYMODULE'),
+  ('xlsxwriter.chartsheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chartsheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.drawing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\drawing.py',
+   'PYMODULE'),
+  ('xlsxwriter.shape',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\shape.py',
+   'PYMODULE'),
+  ('xlsxwriter.worksheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.compatibility',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\compatibility.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_pie',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart_pie.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\chart.py',
+   'PYMODULE'),
+  ('xlsxwriter.xmlwriter',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlsxwriter\\xmlwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('jdcal',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\jdcal.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('xlrd.xldate',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\xldate.py',
+   'PYMODULE'),
+  ('xlrd',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\__init__.py',
+   'PYMODULE'),
+  ('xlrd.xlsx',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\xlsx.py',
+   'PYMODULE'),
+  ('xlrd.info',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\info.py',
+   'PYMODULE'),
+  ('xlrd.formula',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\formula.py',
+   'PYMODULE'),
+  ('xlrd.book',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\book.py',
+   'PYMODULE'),
+  ('xlrd.sheet',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\sheet.py',
+   'PYMODULE'),
+  ('xlrd.formatting',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\formatting.py',
+   'PYMODULE'),
+  ('xlrd.compdoc',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\compdoc.py',
+   'PYMODULE'),
+  ('xlrd.biffh',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\biffh.py',
+   'PYMODULE'),
+  ('xlrd.timemachine',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\xlrd\\timemachine.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.tools',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\tools.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.compat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\compat.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.misc',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.style',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\style.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.hist',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\hist.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.core',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.timeseries',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\timeseries.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.converter',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\converter.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.boxplot',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\boxplot.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\strings.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_testing.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pytz',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
+   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
    'PYMODULE'),
   ('numpy',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
@@ -2252,14 +4033,6 @@
   ('numpy.ctypeslib',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '
    'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\numpy\\ctypeslib.py',
-   'PYMODULE'),
-  ('numpy.random',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
-   'PYMODULE'),
-  ('numpy.random._pickle',
-   'C:\\Users\\bruno\\Documents\\Oficial\\6. '
-   'Gpy\\GrelhaPy\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
    'PYMODULE'),
   ('numpy.polynomial',
    'C:\\Users\\bruno\\Documents\\Oficial\\6. '

@@ -1,4 +1,5 @@
-from numpy import array, zeros, absolute
+"""Arquivo de criação do objeto da estrutura"""
+from numpy import array, zeros
 
 
 class Grelha:
