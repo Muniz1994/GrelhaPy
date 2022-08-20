@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import (QStackedWidget, QWidget,
 
 
 from PyQt5.QtCore import Qt
-from data.analise import Analises
+from data.analise import analises
 from data.erros.erros import erro_null, erro_formato_errado, erro_aus_dados
 import matplotlib.pyplot as pl
 from data.analise.estruturas import Grelha
