@@ -2,8 +2,8 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication
-from Data.Visual.Janelas import Janelas
-from Data.Visual.VisualConfig import VisualConfig
+from data.visual.janelas import Janelas
+from data.visual.config import VisualConfig
 from numpy import array, inf
 
 

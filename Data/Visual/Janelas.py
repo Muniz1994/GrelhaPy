@@ -14,10 +14,10 @@ from PyQt5.QtWidgets import (QStackedWidget, QWidget,
 
 
 from PyQt5.QtCore import Qt
-from Data.Analise import Analises
-from Data.Erros.Erros import erro_null, erro_formato_errado, erro_aus_dados
+from data.analise import Analises
+from data.erros.erros import erro_null, erro_formato_errado, erro_aus_dados
 import matplotlib.pyplot as pl
-from Data.Analise.Estruturas import Grelha
+from data.analise.estruturas import Grelha
 from mpl_toolkits import mplot3d
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
