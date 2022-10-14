@@ -1,4 +1,4 @@
-<img alt="GrelhaPy" src="https://github.com/Muniz1994/GrelhaPy/blob/master/Logo.png" height=120>
+<img alt="GrelhaPy" src="data/assets/Logo.png" height=120>
 <h1 class="anchor">GrelhaPy</h1>
 <p>Programa baseado em python com objetivo de realizar a análise estrutural de grelhas.</p>
 <ul>

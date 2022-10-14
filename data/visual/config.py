@@ -17,7 +17,7 @@ class VisualConfig(QMainWindow):
         self.setMinimumSize(800, 600)
         self.move
 
-        icon = QIcon(r"Gpyicon.png")
+        icon = QIcon(r"data/assets/gpy.ico")
         self.setWindowIcon(icon)
 
         ##################################################################################
