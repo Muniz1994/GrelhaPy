@@ -28,5 +28,14 @@ Como resultado da análise, são fornecidos os seguintes dados:
 * Deslocamentos nodais;
 * Reações de apoio;
 * Esforços solicitantes internos nos nós;
-* Matriz de rigidez geral da estrutura;
+* Matriz de rigidez geral da estrutura.
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Autores
+
+[@BrunoMuniz](https://github.com/Muniz1994)
 
