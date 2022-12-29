@@ -32,9 +32,7 @@ Como resultado da análise, são fornecidos os seguintes dados:
 * Matriz de rigidez geral da estrutura.
 
 ![Matriz de rigidez](data/assets/MatrizRigidez.png)
-<p align = "center">
 Fig.1 - Interface do programa com apresentação da matriz de rigidêz geral.
-</p>
 
 ## Licença
 
