@@ -31,7 +31,7 @@ Como resultado da análise, são fornecidos os seguintes dados:
 * Esforços solicitantes internos nos nós;
 * Matriz de rigidez geral da estrutura.
 
-![Matriz de rigidez](data\assets\MatrizRigidez.png)
+![Matriz de rigidez](data/assets/MatrizRigidez.png)
 <p align = "center">
 Fig.1 - Interface do programa com apresentação da matriz de rigidêz geral.
 </p>
