@@ -16,12 +16,13 @@ Programa baseado em python com objetivo de realizar a análise estrutural de gre
 
 A execução da análise ocorre a partir do seguinte fluxo:
 
-1. Definição das características geométricas da estrutura (nós e barras);
+1. Definição das características geométricas da estrutura (nós e barras) e das condições de restrição dos nós;
 2. Definição das características dos materiais da estrutura (módulos de elasticidade);
 3. Definição das forças atuantes na estrutura, tanto concentradas como distribuí;
 4. Execução da análise;
 
 Antes da execução da análise, o programa irá conferir a consistência dos dados inseridos, informando caso encontre algum problema.
+
 
 Como resultado da análise, são fornecidos os seguintes dados:
 
@@ -29,6 +30,11 @@ Como resultado da análise, são fornecidos os seguintes dados:
 * Reações de apoio;
 * Esforços solicitantes internos nos nós;
 * Matriz de rigidez geral da estrutura.
+
+![Matriz de rigidez](data\assets\MatrizRigidez.png)
+<p align = "center">
+Fig.1 - Interface do programa com apresentação da matriz de rigidêz geral.
+</p>
 
 ## Licença
 
