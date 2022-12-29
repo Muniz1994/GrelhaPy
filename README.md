@@ -1,4 +1,6 @@
 
+![GrelhaPy Logo](data\assets\Gpyicon.png)
+
 # GrelhaPy
 
 Programa baseado em python com objetivo de realizar a análise estrutural de grelhas.
