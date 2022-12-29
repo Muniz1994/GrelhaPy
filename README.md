@@ -1,5 +1,5 @@
 
-![GrelhaPy Logo](data\assets\Gpyicon.png)
+![GrelhaPy Logo](data/assets/Gpyicon.png)
 
 # GrelhaPy
 
